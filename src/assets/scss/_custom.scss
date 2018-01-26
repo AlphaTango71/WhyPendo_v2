@@ -1,0 +1,21 @@
+* {
+    font-family: 'Proxima Nova', Helvetica, Arial, sans-serif;
+}
+
+.hero-image {
+    background-image: url('../img/HeroImage_plane_green.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 400px;
+    width: 100%;
+    background-position: left top;
+}
+
+h1 {
+    color: white;
+    font-family: 'Proxima Nova', Helvetica, Arial, sans-serif;
+}
+
+#hero p {
+    color: white;
+}

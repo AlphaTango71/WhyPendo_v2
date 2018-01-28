@@ -1,6 +1,7 @@
 $primaryPink: #ec2059;
 * {
     font-family: 'Proxima Nova', Helvetica, Arial, sans-serif;
+    color: grey;
 }
 
 .branding {
@@ -68,6 +69,23 @@ h3 {
     margin-top: 20px;
 }
 
+h4 {
+    font-family: 'Proxima Nova', Helvetica, Arial, sans-serif;
+    color: grey;
+    font-size: 1.7em;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+h5 {
+    font-family: 'Proxima Nova', Helvetica, Arial, sans-serif;
+    color: white;
+    font-size: 1em;
+    font-weight: normal;
+    margin-top: 20px;
+    letter-spacing: 2px;
+}
+
 .feature-sub {
     font-size: .9em;
     color: white;
@@ -97,6 +115,12 @@ h3 {
     padding-right: 0;
 }
 
+#testimonial p {
+    font-size: .9em;
+    margin-top: 20px;
+    letter-spacing: 2px;
+}
+
 .laptop {
     float: right;
     margin: 40px 0;
@@ -105,4 +129,26 @@ h3 {
 .headshot {
     margin-top: 70px;
     width: 120px;
+}
+
+.lower-cta {
+    background-image: url('../img/lower_CTA_background.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 250px;
+}
+
+#lowerCTA img {
+    margin-top: 50px;
+}
+
+.bold {
+    font-weight: bold;
+    color: white;
+}
+
+hr {
+    border-bottom-color: white;
+    border-bottom-width: 1px;
+    width: 30%;
 }

@@ -51,6 +51,10 @@ h2 {
     border-radius: 4px;
 }
 
+.button.main-cta:hover {
+    background-color: darken(#ec2059, 10);
+}
+
 .features-block {
     background-image: url('../img/features_background.jpg');
     background-position: left top;
@@ -77,7 +81,7 @@ h4 {
     margin-top: 20px;
 }
 
-h5 {
+#lowerCTA p {
     font-family: 'Proxima Nova', Helvetica, Arial, sans-serif;
     color: white;
     font-size: 1em;
@@ -151,4 +155,19 @@ hr {
     border-bottom-color: white;
     border-bottom-width: 1px;
     width: 30%;
+}
+
+.button.lower {
+    background-color: rgba(236, 32, 89, 0.0);
+    border: 1px solid white;
+    border-radius: 4px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+.button.lower:hover {
+    background-color: white;
+    border: 1px solid white;
+    color: #ec2059;
+    border-radius: 4px;
 }

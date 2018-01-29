@@ -21,6 +21,8 @@ $primaryPink: #ec2059;
 h1 {
     color: white;
     font-family: 'Proxima Nova', Helvetica, Arial, sans-serif;
+    font-weight: bold;
+    font-size: 3.5em;
 }
 
 h2 {
@@ -49,6 +51,9 @@ h2 {
 .button.main-cta {
     background-color: #ec2059;
     border-radius: 4px;
+    font-size: 1.4em;
+    font-weight: bold;
+    margin-bottom: 50px;
 }
 
 .button.main-cta:hover {
@@ -103,6 +108,14 @@ h4 {
     margin: 0 20px 30px 30px;
     font-size: 1em;
     line-height: 1.3em;
+}
+
+#features h1 {
+    font-weight: bold;
+    margin-bottom: 40px;
+    font-family: 'Proxima Nova', Helvetica, Arial, sans-serif;
+    font-size: 2em;
+    letter-spacing: 4px;
 }
 
 .testimonial-block {
@@ -170,4 +183,18 @@ hr {
     border: 1px solid white;
     color: #ec2059;
     border-radius: 4px;
+}
+
+footer {
+    background: #6A6C75;
+    padding: 75px 0;
+}
+
+footer img {
+    margin-bottom: 30px;
+}
+
+footer p {
+    color: white;
+    font-size: .8em;
 }

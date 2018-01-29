@@ -198,3 +198,135 @@ footer p {
     color: white;
     font-size: .8em;
 }
+
+#PendoLP_modal {
+    background-color: rgba(236, 32, 89, 0.8);
+}
+
+.mktoForm .mktoLabel {
+    display: none
+}
+
+.mktoForm .mktoOffset {
+    float: left;
+    height: 0!important;
+    width: 10px!important
+}
+
+.mktoForm .mktoLabel {
+    float: left;
+    line-height: 0!important;
+    padding: 0!important
+}
+
+.mktoForm {
+    width: 80%!important
+}
+
+.mktoButtonRow,
+.mktoFieldWrap,
+.mktoFormRow {
+    width: 100%
+}
+
+.mktoFormRow {
+    line-height: 5px!important
+}
+
+.mktoForm input[type=date],
+.mktoForm input[type=email],
+.mktoForm input[type=number],
+.mktoForm input[type=tel],
+.mktoForm input[type=text],
+.mktoForm input[type=url],
+.mktoForm select.mktoField,
+.mktoForm textarea.mktoField {
+    width: 100%!important
+}
+
+.mktoFormCol {
+    width: 100%
+}
+
+.mktoFieldWrap {
+    box-sizing: border-box
+}
+
+.mktoFormCol:nth-child(even) .mktoFieldWrap {
+    padding-right: 0!important
+}
+
+.mktoButtonRow {
+    text-align: center!important
+}
+
+.mktoForm .mktoLabel {
+    width: 150px!important
+}
+
+.mktoButtonWrap {
+    margin-left: 0!important;
+    margin-top: 15px!important
+}
+
+.mktoForm .mktoAsterix {
+    float: left;
+    color: #bf0000;
+    padding-right: 5px;
+    display: none
+}
+
+.mktoForm .mktoFieldDescriptor {
+    margin-top: -5px!important
+}
+
+@media only screen and (max-width:480px) {
+    .mktoFormCol {
+        width: 100%!important
+    }
+    .mktoFieldWrap {
+        padding-right: 0!important
+    }
+}
+
+.mktoForm .mktoButtonWrap.mktoSimple .mktoButton {
+    background: #ec2059!important;
+    color: #fff!important;
+    font-weight: 700;
+    text-transform: uppercase;
+    border: 2px solid #fff!important;
+    border-radius: 4px!important;
+    text-align: center!important;
+    width: 100%!important;
+    padding-top: 10px!important;
+    padding-bottom: 10px!important;
+    padding-left: 0!important;
+    padding-right: 0!important;
+    margin-top: 10px!important;
+    font-size: 1.5em;
+    text-transform: uppercase;
+}
+
+button .mktoButton {
+    font-size: 2em !important;
+}
+
+#PendoLP_modal h1 {
+    color: white;
+    font-size: 3em;
+    font-weight: bold;
+    margin-top: 100px;
+}
+
+#PendoLP_modal p {
+    color: white;
+    font-size: 1.7em;
+}
+
+.modal-close {
+    font-size: 1.4em;
+    font-weight: bold;
+    margin: 15px;
+    color: white;
+    float: right;
+}

@@ -9,7 +9,7 @@ $primaryPink: #ec2059;
 }
 
 .hero-image {
-    background-image: url('../img/HeroImage_plane_green.jpg');
+    background-image: url('http://na-ab25.marketo.com/rs/185-LQW-370/images/HeroImage_plane_green.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     width: 100%;
@@ -54,6 +54,10 @@ h2 {
     margin-left: 30px;
     margin-top: 10px;
     margin-bottom: 10px;
+    @media screen and (max-width: 400px) {
+        display: block;
+        padding-top: 10px;
+    }
 }
 
 .button.main-cta {

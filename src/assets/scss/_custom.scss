@@ -16,6 +16,14 @@ $primaryPink: #ec2059;
     background-position: left top;
 }
 
+.hero-image-mobile {
+    background-image: url('http://go.pendo.io/rs/185-LQW-370/images/soft_clouds.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    background-position: left top;
+}
+
 .hero-black {
     background-color: black;
     width: 100%;
@@ -94,12 +102,22 @@ h2 {
     text-align: center;
 }
 
+.features-block-green {
+    background-image: url('http://go.pendo.io/rs/185-LQW-370/images/GreenPanel.jpg');
+    background-position: left top;
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 300px;
+    padding: 40px 50px;
+    text-align: center;
+}
+
 h3 {
     font-family: 'Proxima Nova', Helvetica, Arial, sans-serif;
     color: white;
     font-size: 1.2em;
     font-weight: bold;
-    margin-top: 20px;
+    margin-top: 30px;
 }
 
 h4 {
@@ -125,6 +143,18 @@ h4 {
     margin: 5px 0;
     display: block;
     font-weight: 700;
+}
+
+.feature-sub-dark {
+    font-size: .9em;
+    color: #4A4A4A;
+    margin: 5px 0;
+    display: block;
+    font-weight: 700;
+}
+
+.dark {
+    color: #4A4A4A;
 }
 
 #features p {
